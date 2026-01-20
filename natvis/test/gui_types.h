@@ -12,7 +12,7 @@ public:
     QCursor qCursor = QCursor();
     QFont qFont = QFont();
     QImage qImage = QImage(":/test/rustacean.png");
-    QKeySequence qKeySequence = QKeySequence(Qt::CTRL + Qt::Key_Q);
+    QKeySequence qKeySequence = QKeySequence(Qt::CTRL | Qt::Key_Q);
     QMatrix4x4 qMatrix4x4 = QMatrix4x4();
     QPalette qPalette = QPalette();
     QPen qPen = QPen();

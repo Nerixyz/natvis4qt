@@ -38,7 +38,7 @@ public:
     QVariant v_schar = QVariant::fromValue<signed char>('V');
     QVariant v_uchar = QVariant::fromValue<unsigned char>('V');
     QVariant v_float = 3.1415f;
-    QVariant v_qfloat16 = QVariant::fromValue<qfloat16>(3.1415);
+    QVariant v_qfloat16 = QVariant::fromValue<qfloat16>(qfloat16(3.1415));
     QVariant v_qObjectStar = QVariant::fromValue(static_cast<QObject *>(this));
     QVariant v_qCursor = QCursor();
     QVariant v_qDate = QDate::currentDate();
@@ -89,7 +89,7 @@ public:
     QVariant v_qRegion = QRegion();
     QVariant v_qBitArray = QBitArray(42);
     QVariant v_qImage = QImage(42, 42, QImage::Format_RGB32);
-    QVariant v_qKeySequence = QKeySequence(Qt::CTRL + Qt::Key_Q);
+    QVariant v_qKeySequence = QKeySequence(Qt::CTRL | Qt::Key_Q);
     QVariant v_qSizePolicy = QVariant::fromValue(QSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding));
     QVariant v_qPixmap = QPixmap(42, 42);
     QVariant v_qLocale = QLocale();

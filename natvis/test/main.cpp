@@ -23,5 +23,5 @@ int main(int argc, char *argv[])
 
     auto widgetTypes = WidgetsTypes();
 
-    return 0;
+    return 0; // break here
 }

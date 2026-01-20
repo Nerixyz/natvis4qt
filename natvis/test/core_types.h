@@ -25,7 +25,7 @@ public:
         : QObject(parent)
     {
         QFile jsonFile(":/test/pass1.json");
-        jsonFile.open(QIODevice::ReadOnly | QIODevice::Text);
+        [[maybe_unused]] bool ok = jsonFile.open(QIODevice::ReadOnly | QIODevice::Text);
         QJsonParseError error;
         qJsonDocument = QJsonDocument::fromJson(jsonFile.readAll(), &error);
 
@@ -61,6 +61,8 @@ public:
     QSize qSize = QSize(42, 42);
     QSizeF qSizeF = QSizeF(4.2, 4.2);
     QString qString = QString("Hello World!");
+    QString qStringEmpty = QString("");
+    QString qStringNull;
     QStringView qStringView = QStringView(qString);
     QTime qTime = QTime::currentTime();
     QUrl qUrl = QUrl("https://github.com/narnaud/natvis4qt");
