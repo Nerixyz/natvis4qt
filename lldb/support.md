@@ -1,0 +1,82 @@
+## From `qt6.natvis`
+
+- [ ] `QBasicAtomicInteger<*>`
+- [ ] `QBasicAtomicPointer<*>`
+- [ ] `QBasicAtomicPointer<void>`
+- [ ] `QByteArray`
+- [ ] `QCborArray`
+- [ ] `QCborContainerPrivate`
+- [ ] `QCborMap`
+- [ ] `QCborValue`
+- [ ] `QChar`
+- [ ] `QDate`
+- [ ] `QDateTime`
+- [ ] `QDir`
+- [ ] `QFile`
+- [ ] `QFileInfo`
+- [ ] `QFlags<*>`
+- [ ] `QGenericMatrix<*,*,*>`
+- [ ] `QHash<*,*>`
+- [ ] `QHashPrivate::MultiNode<*,*>`
+- [ ] `QHashPrivate::Node<*,*>`
+- [ ] `QHashPrivate::Node<*,QHashDummyValue>`
+- [ ] `QHostAddress`
+- [ ] `QImage`
+- [ ] `QJsonArray`
+- [ ] `QJsonDocument`
+- [ ] `QJsonDocumentPrivate`
+- [ ] `QJsonObject`
+- [ ] `QJsonValue`
+- [ ] `QJsonValueConstRef`
+- [ ] `QJsonValueRef`
+- [ ] `QLine`
+- [ ] `QLineF`
+- [ ] `QList<*>`
+- [ ] `QMap<*,*>`
+- [ ] `QMatrix2x2`
+- [ ] `QMatrix2x3`
+- [ ] `QMatrix2x4`
+- [ ] `QMatrix3x2`
+- [ ] `QMatrix3x3`
+- [ ] `QMatrix3x4`
+- [ ] `QMatrix4x2`
+- [ ] `QMatrix4x3`
+- [ ] `QMatrix4x4`
+- [ ] `QMultiHash<*,*>`
+- [ ] `QMultiMap<*,*>`
+- [ ] `QObject`
+- [ ] `QPair<*,*>`
+- [ ] `QPixmap`
+- [x] `QPoint`
+- [x] `QPointF`
+- [ ] `QPolygon`
+- [ ] `QPolygonF`
+- [ ] `QPropertyData<*>`
+- [ ] `QQuickItem`
+- [ ] `QQuickItemPrivate`
+- [x] `QRect` +synthetic
+- [x] `QRectF`
+- [ ] `QSet<*>`
+- [x] `QSize` +synthetic
+- [x] `QSizeF` +synthetic
+- [ ] `QSizePolicy`
+- [ ] `QSpan<*>`
+- [ ] `QSpecialInteger<*>`
+- [x] `QString`
+- [ ] `QStringRef`
+- [ ] `QStringView`
+- [ ] `QTime`
+- [ ] `QUrl`
+- [x] `QUuid`
+- [ ] `QVarLengthArray<*,*>`
+- [ ] `QVariant`
+- [ ] `QVector2D`
+- [ ] `QVector3D`
+- [ ] `QVector4D`
+- [ ] `QVector<*>`
+- [ ] `QtCbor::ByteData`
+- [ ] `QtCbor::Element`
+
+## Additions
+
+- [x] `QCheckedInt<*>`
